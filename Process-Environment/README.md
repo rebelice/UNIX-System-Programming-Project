@@ -4,13 +4,13 @@ Designed by Junyi Yang(yangrebelice@gmail.com)
 
 ## Introduction
 
-In this lab, we'll see how a C program is compiled and executed in the UNIX Environment. I'll introduce some basic knowledges about this. And you also need write some codes and run them. Don't worry, it's far too easy.
+In this lab, we'll see how a C program is compiled and executed in the UNIX Environment. I'll introduce some basic knowledge about that. And you also need to write some codes and run them. Don't worry, it's far too easy.
 
 ## Command-Line Compile
 
 **If you already know `Command-Line Compile`, you can skip this step.**
 
-You can use any editors(vim, emacs, gedit, vscode, etc.) to write codes, but you need Command-Line Compile your C progam in the terminals. Also, you can shoose any shells you like. Now open your terminal and follow me.
+You can use any editors(vim, emacs, gedit, vscode, etc.) to write codes, but you need to Command-Line Compile your C progam in the terminals. Also, you can choose any shell you like. Now open your terminal and follow me.
 
 1. Make sure you have GNU C Compiler(gcc). You can use `gcc --version` to determine that.
 2. Write some simple C codes, just like `hello-world.c`.
@@ -40,15 +40,15 @@ We have provided a simple C program `main-function.c` as an example.
 **TODO**:
 1. See that how to use `argc` and `argv`.
 	- There are two ways.
-2. Compile it as before, use flag `-o main-function`.
+2. Compile it as above, use flag `-o main-function`.
 3. Run it as `./main-function Fudan University ICS 2019 OS Project`. To see the output.
 
 Now, I think you already know how to use `argc` and `argv`. Please finish the following.
 
 **TODO**:
 - You need to code a C program to solve a `a + b Problem` by using `argv`. 
-- The only thing you need to pay attention is that you should run it as `./addition-problem 1 2`.
-- For convenience, we can suppose that the input numbers have only one digit.
+- The only thing you need to pay attention to is that you should run it as `./addition-problem 1 2`.
+- For convenience, we can suppose that the input numbers are integers which are in the range of 0 to 9. 
 - No restrictions on the name of your program.
 
 ### Process Termination
@@ -59,7 +59,7 @@ Here we only introduce three ways to terminate a process.
 2. Calling `exit`
 3. calling `_exit` or `_Exit`
 
-There are something you need to know.
+Followings are something you need to know.
 
 1. Returning an integer value from the `main` function is equivalent to calling `exit` with the same value. Thus `exit(0);` is the same as `return 0;` from the `main` function.
 2. `exit` performs certain cleanup processing (such as standard I/O cleanup) and then returns to the kernel.
