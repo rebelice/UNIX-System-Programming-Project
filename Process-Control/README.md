@@ -5,7 +5,7 @@ Designed by Junyi Yang(yangrebelice@gmail.com)
 ## Introduction
 
 In this lab, we'll see how to control processes in the UNIX Environment.
-This includes the creation of new processes, program execution, process termination and interprocess communication.
+The primary coverage includes the creation of new processes, program execution, process termination and interprocess communication.
 
 ## Process Identifiers
 
@@ -37,7 +37,7 @@ pid_t fork(void);
 
 ## `wait` and `waitpid` Functions
 
-A process calls `wait` or `waitpid` can
+A process calling `wait` or `waitpid` can
 - Block, if all of its children are still running
 - Return immediately with the termination status of a child, if a child has terminated and is waiting for its termination status to be fetched
 - Return immediately with an error, if it dosen't have any child processes
@@ -89,7 +89,7 @@ int pipe(int fd[2]);
 1. Read the program, `fork-and-variable.c`, and change it. Answer the following questions.
 	1. Whithout changing, what value is the variable in the child process, and why?
 	2. What happens to the variable when both the child and parent change the value? What do you think about it.
-2. Write a C program using `fork()`. Let the child process prints 'hello!' and the parent child prints 'goodbye!'. Try to ensure that the child process always prints first.
+2. Write a C program using `fork()`. Let the child process prints 'hello!' and the parent process prints 'goodbye!'. Try to ensure that the child process always prints first.
 3. Read the program, `fork-and-exec.c`, and complete it.
 4. Write a program using `wait()` to wait for the child process. What does wait() return? What happens if you use wait() in the child.
 
