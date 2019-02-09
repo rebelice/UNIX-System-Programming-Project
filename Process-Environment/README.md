@@ -61,7 +61,7 @@ Here we only introduce three ways to terminate a process.
 
 There are something you need to know.
 
-1. Returning an integer value from the `main` function is equivalent to calling `exit` with the same value. Thus `exit(0);` is the same as `return(0);` from the `main` function.
+1. Returning an integer value from the `main` function is equivalent to calling `exit` with the same value. Thus `exit(0);` is the same as `return 0;` from the `main` function.
 2. `exit` performs certain cleanup processing (such as standard I/O cleanup) and then returns to the kernel.
 3. `_exit` and `_Exit` return to the kernel immediately.
 
