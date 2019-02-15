@@ -40,3 +40,8 @@ Usually, you need to ask for help in English on these websites.
 	- read
 	- write
 3. Write a program that creates two children, and connects the standard output of one to the standard input of the other.
+
+## References
+- UNIX system manuals
+- W. Richard Stevens, Stephen A. Rago. Advanced Programming in the Unix Environment, Third Edition. Person Education, Inc.. 2013
+- [Operating System: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/)
