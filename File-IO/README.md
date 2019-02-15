@@ -27,7 +27,7 @@ Followings are some useful website. Your UNIX system manual is also useful.
 - [Google](https://www.google.com)
 - [Bing](https://www.bing.com)
 
-Usually, you need 
+Usually, you need to ask for help in English on these websites.
 
 ## **TODO**
 
