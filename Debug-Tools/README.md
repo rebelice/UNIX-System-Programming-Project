@@ -91,4 +91,7 @@ If you have problems in the process of completing, you can use any way to solve 
 	- Understand the output.
 	- Distinguish between `definitely lost` and `indirectly lost`.
 
-
+## References
+- UNIX system manuals
+- W. Richard Stevens, Stephen A. Rago. Advanced Programming in the Unix Environment, Third Edition. Person Education, Inc.. 2013
+- [Operating System: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/)
