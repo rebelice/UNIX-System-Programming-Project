@@ -6,7 +6,7 @@ Designed by Junyi Yang(yangrebelice@gmail.com)
 
 In this lab, we'll know a debug tool, `Valgrind`. We'll introduce only one Valgrind tool, `Memcheck`, which can be used to find memory bugs.
 
-See [valgrind.org](https://www.valgrind.org) for details. 
+See [valgrind.org](valgrind.org) for details. 
 
 ## **TODO**
 
