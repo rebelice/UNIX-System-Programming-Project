@@ -1,3 +1,4 @@
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 # Pthreads
 
 Designed by Junyi Yang(yangrebelice@gmail.com)
@@ -124,7 +125,7 @@ See UNIX system manuals and [textbook](http://http://pages.cs.wisc.edu/~remzi/OS
 - See `CreateAndExit.c` and run it.
 - See `Joining.c` and run it.
 - Read the [textbook](http://http://pages.cs.wisc.edu/~remzi/OSTEP/), Chapter 26-31.
-- Write a program that creates three threads and read an integer `a` which is between 1 and 9 as input. Let the thread one calculate $$ a! $$. Let the thread two calculate $$ a^a $$. And let the thread three calculate the sum of the two, which means $$ a!+a^a $$. Yon need to let the thread three use the results of the thread one and two.
+- Write a program that creates three threads and read an integer `a` which is between 1 and 9 as input. Let the thread one calculate \\( a! \\). Let the thread two calculate \\( a^a \\). And let the thread three calculate the sum of the two, which means \\( a!+a^a \\). Yon need to let the thread three use the results of the thread one and two.
 
 ## References
 
