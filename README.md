@@ -6,14 +6,14 @@ TAs:
 
 This is ICS 2019:OS UNIX System Programming Project.
 
-This progect is divided into five parts.
+This project is divided into five parts.
 - Project Tools
 - Process
 	- Process Environment
 	- Process Control
 - Debug Tools
 - Pthreads
-- File IO
+- File I/O
 
 In each lab, we describe all things you need to do in each `README.md`. And use **`TODO`** to emphasize them.
 
