@@ -6,7 +6,8 @@ TAs:
 
 This is ICS 2019:OS UNIX System Programming Project.
 
-This progect is divided into four parts.
+This progect is divided into five parts.
+- Project Tools
 - Process
 	- Process Environment
 	- Process Control
