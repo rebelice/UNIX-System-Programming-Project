@@ -6,25 +6,6 @@ Designed by Junyi Yang(yangrebelice@gmail.com)
 
 In this lab, we'll see how a C program is compiled and executed in the UNIX Environment. I'll introduce some basic knowledge about that. And you also need to write some codes and run them. Don't worry, it's far too easy.
 
-## Command-Line Compile
-
-**If you already know `Command-Line Compile`, you can skip this step.**
-
-You can use any editors(vim, emacs, gedit, vscode, etc.) to write codes, but you need to Command-Line Compile your C progam in the terminals. Also, you can choose any shell you like. Now open your terminal and follow me.
-
-1. Make sure you have GNU C Compiler(gcc). You can use `gcc --version` to determine that.
-2. Write some simple C codes, just like `hello-world.c`.
-3. Use `gcc hello-world.c -o hello-world` to compile you program.
-	- There are some useful flags that you may need in the future. Make sure you know what they mean. If not, please get help from `google.com` or `bing.com`.
-	- -o
-	- -g
-	- -c
-	- -S
-	- -O0 -O1 -O2 -O3
-	- -Wall
-	- -Werror
-4. Now you can use `./hello-world` to run it.
-
 ## Process Environment
 
 ### `main` Function and Command-Line Arguments
