@@ -11,7 +11,7 @@ See [valgrind.org](http://www.valgrind.org) for details.
 ## **TODO**
 
 You will get an overview of `memcheck` by completing the following tasks.
-If you have problems in the process of completing, you can use any way to solve them.
+If you have problems in the process of completing, you can use any method to solve them.
 
 1. Check if uninitialized memory is being used.
 	```

@@ -4,7 +4,7 @@ Designed by Junyi Yang(yangrebelice@gmail.com)
 
 ## Introduction
 
-In this lab, we'll introduce some useful tools. You can skip some steps if you already know about these.
+In this lab, we'll introduce some useful tools. You can skip some steps if you already know about them.
 
 ## Linux
 
@@ -27,7 +27,7 @@ to download UNIX System Manuals to your computer.
 
 **If you already know `Command-Line Compile` and `GCC`, you can skip this step.**
 
-You can use any editors(vim, emacs, gedit, vscode, etc.) to write codes, but you need to Command-Line Compile your C progam in the terminals. Also, you can choose any shell you like. Now open your terminal and follow me.
+You can use any editors(vim, emacs, gedit, vscode, etc.) to write codes, but you need to use `gcc` to compile your C progam in the terminals. Also, you can choose any shell you like. Now open your terminal and follow me.
 
 1. Make sure you have GNU C Compiler(gcc). You can use `gcc --version` to determine that.
 	- If not, you can use `sudo apt-get install gcc` to install it.

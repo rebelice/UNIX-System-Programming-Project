@@ -7,7 +7,7 @@ Designed by Junyi Yang(yangrebelice@gmail.com)
 In this lab, we'll see the POSIX.1-2001 threads interfaces, also known as `pthreads` for `POSIX threads`.
 Here I assume that you know the threads, otherwise you need to read our [textbook](http://pages.cs.wisc.edu/~remzi/OSTEP/).
 
-We'll briefly introduce `pthreads`, you need to see the UNIX system manuals for details. Search engines can also help you.
+We'll briefly introduce `pthreads`, and you need to see the UNIX system manuals for details. Search engines can also help you.
 
 ## Thread Identification
 
@@ -34,7 +34,7 @@ We'll briefly introduce `pthreads`, you need to see the UNIX system manuals for 
 						void *arg);
 ```
 
-- Return 0 if OK, error number on failure.
+- This function returns 0 if OK or error number on failure.
 - The memory location pointed to by `thread` is set to the thread ID.
 - The `attr` argument is used to customize various thread attributes.
 - The new thread starts running at the address of the `start_toutine`.
@@ -74,7 +74,7 @@ int pthread_attr_setdetachstate(pthread_attr_t *attr, int detachstate);
 ```
 
 We can use `pthread_join` to wait for the thread to terminate.
-In order to achieve this goal, you need to use `pthread_attr_init` and `pthread_attr_setdetachstate`.
+In order to achieve that, you need to use `pthread_attr_init` and `pthread_attr_setdetachstate`.
 
 See UNIX system manuals and [textbook](http://http://pages.cs.wisc.edu/~remzi/OSTEP/) for details.
 
@@ -124,7 +124,7 @@ See UNIX system manuals and [textbook](http://http://pages.cs.wisc.edu/~remzi/OS
 - See `CreateAndExit.c` and run it.
 - See `Joining.c` and run it.
 - Read the [textbook](http://http://pages.cs.wisc.edu/~remzi/OSTEP/), Chapter 26-31.
-- Write a program that creates three threads and read an integer `a` which is between 1 and 9 as input. Let the thread one calculate $a!$. Let the thread two calculate $a^a$. And let the thread three calculate the sum of the two, which means $a!+a^a$. Yon need to let the thread three use the results of the thread one and two.
+- Write a program that creates three threads and read an integer `a` which is between 1 and 9 as input. Let thread one calculate $a!$. Let thread two calculate $a^a$. And let thread three calculate the sum of the two, which means $a!+a^a$. Yon need to let thread three use the results of thread one and two.
 
 ## References
 
